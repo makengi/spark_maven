@@ -1,20 +1,14 @@
 package com.imr.spark.wordcount;
 
-import com.imr.spark.mapreduce.CcTvMapper;
-import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.spark.SparkConf;
-import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.sql.SparkSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 import java.net.URL;
 import java.util.Arrays;
-import java.util.Locale;
 
 public class SparkMain {
 
